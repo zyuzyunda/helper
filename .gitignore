@@ -1,0 +1,51 @@
+# === Python и виртуальные окружения ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.pdb
+*.spec
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === MacOS мусор ===
+.DS_Store
+.Trashes
+*.swp
+.AppleDouble
+.LSOverride
+
+# === IDE и редакторы ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Логи и временные файлы ===
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+
+# === Секретные данные ===
+.env
+*.key
+*.pem
+
+# === Данные проекта ===
+nltk_data/
+__pycache__/
+*.db
+*.sqlite
+*.h5
+*.hdf5
+
+# === Сторонние библиотеки ===
+*.whl
